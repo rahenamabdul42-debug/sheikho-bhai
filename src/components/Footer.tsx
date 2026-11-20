@@ -1,7 +1,7 @@
 import React from 'react';
 import { ArrowUp } from 'lucide-react';
 import { CREATOR_CONFIG } from '../config/creatorConfig';
-import { PlatformIcon } from './PlatformIcons';
+import { PlatformIcon, WhatsAppIcon } from './PlatformIcons';
 
 export const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -24,7 +24,7 @@ export const Footer: React.FC = () => {
             </p>
           </div>
 
-          {/* All Social Media Links */}
+          {/* All Social Media & WhatsApp Links */}
           <div className="flex flex-wrap items-center gap-3">
             {CREATOR_CONFIG.socials.map((social) => (
               <a
@@ -39,6 +39,16 @@ export const Footer: React.FC = () => {
                 <span>{social.name}</span>
               </a>
             ))}
+            <a
+              href={`https://wa.me/${CREATOR_CONFIG.whatsappNumber}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Message Shaikho Bhai on WhatsApp"
+              className="inline-flex items-center gap-2 min-h-[42px] px-4 py-2 rounded-xl bg-[#0C0C0F] border border-[#D4AF37]/30 text-sm font-medium text-[#F5E6B3] hover:border-[#D4AF37] hover:text-[#F2C94C] transition-colors whitespace-nowrap shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#D4AF37]"
+            >
+              <WhatsAppIcon className="w-4 h-4 text-[#D4AF37]" />
+              <span>WhatsApp</span>
+            </a>
           </div>
         </div>
 

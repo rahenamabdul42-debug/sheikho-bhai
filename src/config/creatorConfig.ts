@@ -44,8 +44,11 @@ export const CREATOR_CONFIG = {
   portraitImage: '/src/assets/images/shaikho_bhai_portrait_1795160201013.jpg',
   studioImage: '/src/assets/images/creator_studio_about_1795160201558.jpg',
 
-  /** Replace with your official business / fan inquiry email */
-  email: 'contact@shaikhobhai.com',
+  /** Official business / fan inquiry email & WhatsApp contact */
+  email: 'shaikhadnan6611@gmail.com',
+  whatsappNumber: '971505007201',
+  whatsappDisplay: '+971 50 500 7201',
+  whatsappRawDisplay: '00971505007201',
   locationLabel: 'Official Creator Hub',
 
   about: {
@@ -109,8 +112,8 @@ export const CREATOR_CONFIG = {
     {
       id: 'facebook',
       name: 'Facebook',
-      handle: 'fb.com/shaikhobhai',
-      url: 'https://www.facebook.com/shaikhobhai',
+      handle: 'Shaikho Bhai Official',
+      url: 'https://www.facebook.com/share/19v13viguX/',
       buttonLabel: 'Follow on Facebook',
       tagline: 'Community updates, video premieres & live sessions',
       contentFocus: 'Community & Live',
