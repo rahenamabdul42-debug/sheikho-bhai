@@ -1,0 +1,6 @@
+{
+  "name": "Shaikho Bhai Official Website",
+  "description": "Official personal branding website and social media hub for digital content creator Shaikho Bhai.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
